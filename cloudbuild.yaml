@@ -1,0 +1,20 @@
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'europe-central2-docker.pkg.dev/stolargo/stolargo-repo/aximo-react:$SHORT_SHA', '.']
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'europe-central2-docker.pkg.dev/stolargo/stolargo-repo/aximo-react:$SHORT_SHA']
+
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    args:
+      [
+        'run', 'deploy', 'aximo-react',
+        '--image', 'europe-central2-docker.pkg.dev/stolargo/stolargo-repo/aximo-react:$SHORT_SHA',
+        '--region', 'europe-central2',
+        '--platform', 'managed',
+        '--allow-unauthenticated'
+      ]
