@@ -1,0 +1,92 @@
+.zrob-header {
+    background: url('./assets/kitchen-background.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .zrob-header-content h1 {
+    font-size: 3rem;
+  }
+  
+  .zrob-header-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .header-buttons a {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #f8941c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .jak-to-dziala {
+    padding: 50px 20px;
+  }
+  
+  .kroki-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+  }
+  
+  .krok {
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .korzysci {
+    background: #f9f9f9;
+    padding: 50px 20px;
+  }
+  
+  .korzysci ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .korzysci li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .korzysci li span {
+    margin-right: 10px;
+  }
+  
+  .galeria {
+    padding: 50px 20px;
+  }
+  
+  .galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .galeria-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .cta {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8941c;
+    color: #fff;
+  }
+  
+  .cta-buttons a {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #f8941c;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  

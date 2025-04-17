@@ -1,0 +1,54 @@
+/* Kontener pełnoekranowy */
+.fullscreen-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff;
+  z-index: 10;
+}
+
+.text-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text-description {
+  font-size: 1.5rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.animation-container img {
+  width: 150;
+  height: 150;
+  object-fit: cover;
+}
+
+.content {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,28 @@
+.call-button-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -300px;
+  }
+  
+  .call-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ff9f3f; /* Kolor przycisku */
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .call-button:hover {
+    background-color: #e66a00; /* Kolor przycisku przy hoverze */
+  }
+  
+  @media (max-width: 480px) {
+    .call-button {
+      margin-left: 300px;
+      
+    }
+  }

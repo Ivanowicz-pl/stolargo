@@ -1,0 +1,68 @@
+/* Styl galerii */
+.rel1-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Odstępy między zdjęciami */
+  justify-content: space-between;
+  margin: 50px; /* Ogólny margines */
+  margin-top: 200px; /* Odstęp od górnego menu */
+  margin-left: 200px; /* Margines po lewej stronie */
+  margin-right: 200px; /* Margines po prawej stronie */
+}
+
+.rel1-gallery-item {
+  flex: 1 1 48%; /* 2 kolumny - 48% daje mały odstęp między zdjęciami */
+  max-width: 48%; /* Górna granica szerokości elementu */
+  box-sizing: border-box;
+}
+
+.rel1-gallery-item img {
+  max-width: 100%; /* Dopasowanie szerokości do kontenera */
+  height: auto; /* Automatyczna wysokość zachowująca proporcje */
+  display: block; /* Usunięcie domyślnego odstępu dla inline images */
+  margin: 0 auto; /* Wyrównanie obrazów w pionie */
+  border-radius: 8px; /* Zaokrąglone rogi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień dla zdjęcia */
+  transition: transform 0.3s ease; /* Płynna animacja powiększania */
+}
+
+.rel1-gallery-item img:hover {
+  transform: scale(1.05); /* Powiększenie zdjęcia po najechaniu */
+}
+
+/* Dostosowanie do mniejszych ekranów */
+@media (max-width: 1200px) {
+  .rel1-gallery-item {
+    flex: 1 1 100%; /* Na mniejszych ekranach zdjęcia będą zajmować całą szerokość */
+    max-width: 100%;
+  }
+  .rel1-gallery {
+    margin-left: 10px; /* Mniejszy margines po lewej stronie dla mniejszych ekranów */
+    margin-right: 10px; /* Mniejszy margines po prawej stronie dla mniejszych ekranów */
+  }
+}
+.back-btn {
+  position: sticky;
+  bottom: 45px; /* Dostosuj w zależności od wysokości stopki */
+  left: 80px; /* Dostosuj w zależności od położenia na stronie */
+  font-size: 40px; /* Zwiększamy rozmiar czcionki, aby strzałka była grubsza */
+  cursor: pointer;
+  z-index: 999; /* Upewnij się, że strzałka jest na wierzchu */
+  color: #000; /* Kolor strzałki */
+  background-color: rgba(255, 238, 0, 0.7); /* Tło strzałki */
+  padding: 10px; /* Wysokość i szerokość tła - sprawia, że jest kwadratowe */
+  width: 50px; /* Możesz dostosować szerokość */
+  height: 50px; /* Możesz dostosować wysokość */
+  border: none; /* Usuwa obramowanie */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Wyrównuje strzałkę w przycisku */
+}
+
+/* Styl strzałki po najechaniu */
+.back-btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+

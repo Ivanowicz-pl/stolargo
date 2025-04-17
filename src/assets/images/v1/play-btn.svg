@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.25" height="74.25" viewBox="0 0 225 225">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #fcfcfc;
+        font-family: "Gotham Black";
+      }
+    </style>
+  </defs>
+  <image id="Layer_0" data-name="Layer 0" x="70" y="24" width="103" height="133" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAEZ0lEQVRYhc2YT0wjVRzHX6dA//8vLaTQqYGUYhMolgYPBE1E0YsH40FuHkzcsuJmNVFD1JgoBz0Yl4vraTks0UQvcNmDxbglKCntEhBK09A2DUMCLe1MC6VpoVPzG7YGmi1QOkP9JnPom/faT39/33u8ubk5NDU1dcvr9X5QLBYVzc3NDx0Ox1cEQeQODw+RXC5H7e3taHNzE8Fno9GIxGIxEggEKBaLIYqikFqtZsYSiQTz6HQ65oGxQCCA4vE4s06j0aCTkxO0vb2NeDwe0mq1qLW1FXV1daEGl8v1nsvl+hE9VSqV+owkybf0er1Tp9P9gWEYKhaLiGthMzMz4+W/kUgkzH6/fz4SiXzL5/ORTCbjHAaTy+X5Si+j0egnPp/vye7u7osAA+bkCggTiUTHF01IJpN9s7Ozf4dCoc8lEgkSiUScwGBX+VKYQxDE1+Fw+HE6nbYqFAoELmMTCKtmMkmSQwsLC6vr6+t3ISOkUimiaZoVkIZqF9A0zV9ZWfk+mUy+0dbW5lQoFCE2Yqcqi5xVNBp9dXFx8Z94PP5+KXZqsc61QZ5KFAgE7vt8vtl8Pt+mVCqZ0etYp2rXPEs7OztvUhT1Mo7jd6RS6XRTU1PVMLVa5D9lMhm53+9/QBDEzwghLWRWNbHDGkhJsVjsnaWlpY1wOPw29CmhUHil2GHFNeXKZrM6t9v9K0VR02KxeFwikRxetoZ1i5zV2trauz6fb42m6deh5jQ2NlZ0FacgoOPj4+eCweCjYDD4Q7FY5FdqoJyDlBQKhe7Mz8+v7e/vvwQw5S3ixkDQaYt43uVy/RmNRichxaEQ1gWkJIIgJjY2NrwURfWXGmhdQEDpdNrudruXPR7PBLiKk/StRh6PZ7KjoyOJuru7/4L2UOdnr26uKRPvfwEyOjr6Zd1BBgYGJgYHB+/XLVjlcrnPZrPd6u3t9R4cHNQnfY1G46TVaoUa4k2lUqhQKNxs+qpUKr/D4RjL5/OPwQpHR0cwxry7MZDOzs57NpvtY4FAUIBzNOxRYONUEucgMpksajAYnDiOP0KnFfUcwI2AWCyW6f7+/g+3trYO4NYAdmvPguAMRCQSxRwOx22z2fxbLpdDEA/QTy4S6yA6ne4Xq9U6bjKZ9sENEAtwtXGZWAORSCRpOE4IhcJpdHrPwrT3Sq4oFysgBoNhzm63387lckQkEmFOfVcFKKlWkKzFYrlrNpt/gh3X3t4eM1gtBKoFBMfx3+EQjmFYKJPJMNXxKrFQSVWvxDCs0NfX99Hw8PBrSqUyBLEAm+DrWOGsqrKISqVy9/T0jBmNxg0oz3DLWIsVzoFAZF8m+LcGg+ELvV7/DRwjwQoXFadrgZAk2XjRBLVavTI0NDRGkuQSBGM2mz13DGBLWDqdrgiC4/h3drv9hZaWliWojmzEQiVhTqfzXvk7jUYTtFgsr5hMpk8hGwCCK4CSGkZGRh6srq4Kl5eXnTRNq7Ra7UO73c5cgUOJhpjgGgIhhP4FgxX8pEaDItIAAAAASUVORK5CYII="/>
+  <text id="PLAY" class="cls-1" transform="translate(63.887 201.69) scale(0.641)">PLAY</text>
+</svg>
