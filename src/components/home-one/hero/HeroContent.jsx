@@ -21,8 +21,7 @@ function HeroContent() {
 						 Tworzymy meble, które idealnie wpisują się w Twój styl życia. Nasza firma specjalizuje się w projektowaniu i produkcji mebli na wymiar,
 						 które nie tylko spełniają Twoje oczekiwania, ale także dodają charakteru Twojemu wnętrzu.`}
 					</p>
-				</FadeInStaggerTwoChildren>
-				<FadeInStaggerTwoChildren>
+				
 					<div className="aximo-hero-user-wrap">
 						<div className="aximo-hero-user-thumb">
 							<div className="aximo-hero-user-thumb-item">																	
@@ -31,8 +30,7 @@ function HeroContent() {
 						</div>
 						
 					</div>
-				</FadeInStaggerTwoChildren>
-				<FadeInStaggerTwoChildren>
+				
 					<Link className="aximo-call-btn" to="/kontakt">
 						Skontaktuj się z nami! <i className="icon-call"></i>
 					</Link>
