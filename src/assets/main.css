@@ -1,15 +1,3 @@
-
-html {
-  font-size: clamp(14px, 1.5vw, 18px);
-}
-body {
-  font-size: 1rem; /* Będzie bazować na html */
-  line-height: 1.6;
-}
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2;
-}
-
 /*Header Css StaRT*/
 html {
 	font-size: clamp(14px, 1.1vw, 18px);
@@ -1305,60 +1293,6 @@ a.log-in-btn:hover:after {
 	  display: none;
 	}
   }
-  @media (max-width: 768px) {
-	.container {
-	  padding-left: 30px;
-	  padding-right: 30px;
-	}
-  
-	.about-section .container {
-	  padding-left: 34px;
-	  padding-right: 34px;
-	}
-  }
-  @media (max-width: 768px) {
-	.aximo-testimonial-wrap {
-	  transform: scale(0.95);
-	  transform-origin: top center;
-	}
-  
-	.aximo-testimonial-data h3,
-	.aximo-testimonial-data p,
-	.aximo-testimonial-author {
-	  font-size: 0.85rem !important;
-	  line-height: 1.2;
-	}
-  
-	.aximo-testimonial-rating img {
-	  width: 14px !important;
-	  height: 14px !important;
-	}
-  
-	.aximo-testimonial-wrap {
-	  margin-left: 10px;
-	  margin-right: 10px;
-	}
-  }
-  @media (max-width: 768px) {
-  .aximo-section-padding2 {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .bg-light {
-    background-color: #f9f9f9 !important;
-  }
-}
-.aximo-service-details-thumb2 img {
-	max-width: 100%;
-	height: auto;
-	object-fit: cover;
-	border-radius: 16px;
-  }
-  
-
-  
-  
   
 			
   
